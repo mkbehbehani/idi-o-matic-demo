@@ -11,3 +11,6 @@ def is_running(pid):
         if err.errno == errno.ESRCH:
             return False
     return True
+    
+def add(self, server):
+    self.servers.append(server)
